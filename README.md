@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Description
+
+Inspired by the need to address challenges faced by lawyers and firms, our solution revolutionizes legal work processes through intelligent document summarization. With a surge in lawyers leaving the profession due to long hours, our goal is to leverage technology to alleviate their workload and enhance efficiency.
+
+Our solution tackles the problem of lengthy document analysis by providing an AI-powered tool that generates concise summaries of uploaded law documents. By harnessing advanced natural language processing (NLP) algorithms and machine learning techniques, we significantly reduce the time and effort required for manual analysis, empowering lawyers to work smarter.
+
+Built through a rigorous development process, our solution incorporates deep learning models and linguistic analysis. We trained our models using an extensive dataset of legal documents, judgments, and case studies. By fine-tuning the models with state-of-the-art NLP frameworks and machine learning algorithms, we ensured accurate understanding of legal language and the ability to generate contextually rich summaries.
+
+Moving forward, we envision further enhancing our solution. Our roadmap includes incorporating real-time updates on legal precedents and legislative changes, enabling lawyers to stay up-to-date effortlessly. Additionally, expanding language support to encompass multiple jurisdictions is a priority, ensuring legal professionals worldwide can benefit from improved efficiency and accuracy.
+
+In conclusion, our AI-powered document summarization tool represents a transformative step in streamlining legal workflows. By leveraging technology, we empower lawyers to save time, reduce stress, and make informed decisions. We remain dedicated to continuously refining and expanding our solution, equipping legal professionals with the tools they need to thrive in today's complex legal landscape.
 
 ## Getting Started
 
-First, run the development server:
+First, install local dependencies
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+yarn
+```
+
+Then, run the development server:
+
+```bash
+yarn run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Acknowledgements
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) used automatically optimize and load Inter, a custom Google Font.
+- [`shadcn/ui`](https://ui.shadcn.com/) for UI.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
