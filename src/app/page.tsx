@@ -1,30 +1,15 @@
-import Link from "next/link";
-
-import { siteConfig } from "@/config/site";
-import { buttonVariants } from "@/components/ui/button";
+import { PromptCard } from "@/components/prompt-card";
 
 export default function IndexPage() {
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-      <div className="flex max-w-[980px] flex-col items-start gap-2">
-        <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-          Beautifully designed components <br className="hidden sm:inline" />
-          built with Radix UI and Tailwind CSS.
+      <div className="flex flex-col items-start gap-2 text-center">
+        <h1 className="text-3xl font-bold leading-tight tracking-tighter md:text-5xl w-full py-6">
+          Summarise Your Cases.
         </h1>
-        <p className="max-w-[700px] text-lg text-muted-foreground">
-          Accessible and customizable components that you can copy and paste
-          into your apps. Free. Open Source. And Next.js 13 Ready.
-        </p>
       </div>
-      <div className="flex gap-4">
-        <Link
-          target="_blank"
-          rel="noreferrer"
-          href={siteConfig.links.github}
-          className={buttonVariants({ variant: "outline" })}
-        >
-          GitHub
-        </Link>
+      <div className="mx-auto">
+        <PromptCard />
       </div>
     </section>
   );
